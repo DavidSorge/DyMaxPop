@@ -1,0 +1,20 @@
+name: dymaxpop
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - requests
+    - python
+    - pandas
+    - geopandas
+    - rioxarray
+    - tqdm
+    - ipykernel
+    - geopy
+    - googlemaps
+    - gmaps
+    - matplotlib
+    - pip
+    - pip:
+        - rasterstats
+        - dymax
